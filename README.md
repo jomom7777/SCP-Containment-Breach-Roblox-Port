@@ -7,7 +7,7 @@ Attribute this repository as "SCP - Containment Breach Roblox Port" by jomom7777
 
 Assets by various people involved in the original 2012-2018 SCP - Containment Breach survival horror video game
 
-Code by me (jomom7777) licensed under GPLv3
+Code by me (jomom7777) licensed under GNU AGPLv3.0
 
 # CREDITS
 
