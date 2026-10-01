@@ -21,6 +21,7 @@ Code by me (jomom7777) licensed under GNU AGPLv3.0
 		Ryan Stillings ("Risingstar64")
 		Sam Lynch ("InnocentSam")
 		Shaun Gaylard ("ENDSHN")
+		jomom7777 ("K2NETIC")
 
 
 ## 3D Modellers
@@ -126,6 +127,8 @@ Code by me (jomom7777) licensed under GNU AGPLv3.0
 		Meow :3
 		Nikita Sidorov ("Jabka")
 		Turtle Sandwich/Catnipbuddy
+		Salvage
+		Bob
 		/v/ and everyone in the SCP-CB forum
 
 
