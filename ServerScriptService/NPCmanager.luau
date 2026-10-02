@@ -19,7 +19,7 @@ local scp173 = {}
 				end
 		end
 
-function scp173.textureDisable()
+		function scp173.textureDisable()
 				print("loading normal 173 texture")
 				if HalloweenTex.Parent == SCP173 then
 						HalloweenTex.Parent = game.ServerStorage
