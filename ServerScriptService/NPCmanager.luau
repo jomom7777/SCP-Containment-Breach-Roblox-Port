@@ -11,18 +11,19 @@ if date.month == 10 and date.day == 31 then
 				print("loaded!")
 		else
 				print("failed...")
+		end
+end
+
+if not (date.month == 10 and date.day == 31) then
+		print("loading normal 173 texture")
+		if HalloweenTex.Parent == SCP173 then
+				HalloweenTex.Parent = game.ServerStorage
+		end
+		NormalTex.Parent = SCP173
+		task.wait(0.1)
+		if NormalTex.Parent == SCP173 then
+				print("loaded!")
 		else
-				print("checking if SCP173 HalloweenTex is loaded")
-						if HalloweenTex.Parent == SCP173 then
-						HalloweenTex.Parent = game.ServerStorage
-						NormalTex.Parent = SCP173
-						taskwait(0.1)
-						if HalloweenTex.Parent == SCP173 then
-						print("failed to remove")
-				else
-						print("removed halloween texture")
-				elseif HalloweenTex.Parent = game.ServerStorage then
-						print("not here anyway")
-				end
+				print("failed...")
 		end
 end
