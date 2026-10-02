@@ -7,8 +7,8 @@ local module = {
 		showHUD = true,
 		startupVideos = true,
 		introEnabledByDefault = true,
-		mapSize = 18,
 		achievementPopup = true
+		earnBadges = true
 	},
 	
 	audio = {
@@ -23,3 +23,18 @@ local module = {
 }
 return module
 
+local setup = {
+	local setup.optionSet()
+		if showHUD = false then
+			game.PlayerGui.HUD.Enabled = false
+		if showHUD = true then
+			game.PlayerGui.HUD.Enabled = true
+		if achievementPopup = false then
+			game.APop.Enabled = false
+		if achievementPopup = true then
+			game.APop.Enabled = true
+		if showFPS = false then
+			game.PlayerGui.FPS.Enabled = false
+		if showFPS = true then
+			game.PlayerGui.FPS.Enabled = true
+	end
