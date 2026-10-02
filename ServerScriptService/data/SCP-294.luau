@@ -80,7 +80,7 @@ local module = {
 		dispensesound = dispense1,
 		message = "Damn, that's strong."
 	},
-	[["ALOE VERA DRINK"]] = {
+	["ALOE VERA DRINK"] = {
 		color = Color3.fromRGB(217, 214, 186),
 		alpha = 0.8,
 		sound = ahh,
