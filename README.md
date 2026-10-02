@@ -22,6 +22,7 @@ Code by me (jomom7777) licensed under GNU AGPLv3.0
 		Sam Lynch ("InnocentSam")
 		Shaun Gaylard ("ENDSHN")
 		jomom7777 ("K2NETIC")
+		Mark Jarjour
 
 
 ## 3D Modellers
@@ -47,6 +48,7 @@ Code by me (jomom7777) licensed under GNU AGPLv3.0
 		Shaun Gaylard ("ENDSHN")
 		Tom Malinowski
 		Vladislav Borisevich ("Vane Brain")
+		Brandon Smith
 
 
 ## Sound Effects and Music
@@ -64,6 +66,7 @@ Code by me (jomom7777) licensed under GNU AGPLv3.0
 		Tim Morrison
 		Vladislav Borisevich ("Vane Brain")
 		Walach
+		Turtle Sandwich/Catnipbuddy
 
 
 ## Voice Actors
@@ -78,6 +81,7 @@ Code by me (jomom7777) licensed under GNU AGPLv3.0
 		Moonstiee
 		SolidBaker
 		Tallfellow
+		Undead003
 
 
 ## Graphics and Sprites
@@ -93,6 +97,9 @@ Code by me (jomom7777) licensed under GNU AGPLv3.0
 		Shadowscale48
 		Shaun Gaylard ("ENDSHN")
 		Vladislav Borisevich ("Vane Brain")
+		Aldred28
+		Irontaco
+		Munted
 
 
 ## Writers
@@ -129,6 +136,7 @@ Code by me (jomom7777) licensed under GNU AGPLv3.0
 		Turtle Sandwich/Catnipbuddy
 		Salvage
 		Bob
+		James Bear
 		/v/ and everyone in the SCP-CB forum
 
 
