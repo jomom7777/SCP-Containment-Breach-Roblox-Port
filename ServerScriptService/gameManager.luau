@@ -35,8 +35,16 @@ local scp173 = {}
 		end
 return scp173
 
+-- SCP-066
+
 local scp066 = {}
 		function scp066.beethoven()
 				beethovenMusic:play()
 		end
 return scp066
+
+-- GLOBAL
+
+local global = {}
+		version = "1.3.11"
+return global
