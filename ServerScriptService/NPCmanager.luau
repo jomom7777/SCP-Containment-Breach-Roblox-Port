@@ -1,6 +1,7 @@
 local SCP173 = game.Workspace:WaitForChild("SCP-173")
 local HalloweenTex = game.ServerStorage:WaitForChild("HalloweenTex")
 local NormalTex = game.ServerStorage:WaitForChild("NormalTex")
+local beethovenMusic = game.Workspace.SCP-066.music
 
 -- storage: 		if date.month == 10 and date.day == 31 then
 -- storage: 		if not (date.month == 10 and date.day == 31) then
@@ -33,3 +34,9 @@ local scp173 = {}
 				end
 		end
 return scp173
+
+local scp066 = {}
+		function scp066.beethoven()
+				beethovenMusic:play()
+		end
+return scp066
