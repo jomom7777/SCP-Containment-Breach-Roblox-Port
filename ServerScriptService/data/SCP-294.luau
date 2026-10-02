@@ -1,4 +1,5 @@
 local dispense0 = game.ServerStorage.SFX.SCP.294.dispense0
+local dispense1 = game.ServerStorage.SFX.SCP.294.dispense1
 
 local module = {
 	AIR = {
