@@ -7,7 +7,8 @@ local NormalTex = game.ServerStorage:WaitForChild("NormalTex")
 
 -- SCP-173
 
-function SCP173textureEnable()
+local scp173 = {}
+		function scp173.textureEnable()
 				print("loading SCP-173's halloween texture")
 				HalloweenTex.Parent = SCP173
 				task.wait(0.1)
@@ -17,9 +18,8 @@ function SCP173textureEnable()
 						print("failed...")
 				end
 		end
-end
 
-function SCP173textureDisable()
+function scp173.textureDisable()
 				print("loading normal 173 texture")
 				if HalloweenTex.Parent == SCP173 then
 						HalloweenTex.Parent = game.ServerStorage
@@ -32,4 +32,4 @@ function SCP173textureDisable()
 						print("failed...")
 				end
 		end
-end
+return scp173
