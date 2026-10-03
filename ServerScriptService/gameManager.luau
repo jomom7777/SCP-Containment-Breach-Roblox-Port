@@ -3,12 +3,12 @@
 local SCP173 = game.Workspace:WaitForChild("SCP-173")
 local HalloweenTex = game.ServerStorage:WaitForChild("HalloweenTex")
 local NormalTex = game.ServerStorage:WaitForChild("NormalTex")
-local beethovenMusic = game.Workspace.SCP-066.music
+local beethovenMusic = game.Workspace.scp066.music
 
 -- SCP-173
 
-local scp173 = {}
-		function scp173.textureEnable()
+local module = {}
+		function module.scp173.textureEnable()
 				print("loading SCP-173's halloween texture")
 				HalloweenTex.Parent = SCP173
 				task.wait(0.1)
@@ -19,7 +19,7 @@ local scp173 = {}
 				end
 		end
 
-		function scp173.textureDisable()
+		function module.scp173.textureDisable()
 				print("loading normal 173 texture")
 				if HalloweenTex.Parent == SCP173 then
 						HalloweenTex.Parent = game.ServerStorage
@@ -32,21 +32,17 @@ local scp173 = {}
 						print("failed...")
 				end
 		end
-return scp173
 
 -- SCP-066
 
-local scp066 = {}
-		function scp066.beethoven()
+		function module.scp066_beethoven()
 				beethovenMusic:play()
 		end
-return scp066
 
 -- GLOBAL
 
-local global = {}
-		version = "1.3.11"
-		keycardReq = “A keycard is required to operate this door.”
+		cbversion = "1.3.11"
+		keycardReq = "A keycard is required to operate this door."
 		KeycardNothing = "The keycard was inserted into the slot but nothing happened."
 		KeycardInsert = "The keycard was inserted into the slot."
 		Clearance1 = "A keycard with security clearance 1 or higher is required to operate this door."
@@ -55,7 +51,7 @@ local global = {}
 		Clearance4 = "A keycard with security clearance 4 or higher is required to operate this door."
 		Clearance5 = "A keycard with security clearance 5 or higher is required to operate this door."
 		Clearance6 = "A keycard with security clearance Omni or higher is required to operate this door."
-		ScannerSuc = "You place the palm of the hand onto the scanner. The scanner reads: "DNA verified. Access Granted"
+		ScannerSuc = [["You place the palm of the hand onto the scanner. The scanner reads: "DNA verified. Access Granted"]]
 		Scanner9341 = "You placed your palm onto the scanner. The scanner reads: DNA does not match known sample. Access denied."
 		STOPHIDING = "STOP HIDING"
 		DoorNothing = "You pushed the button but nothing happened."
@@ -74,13 +70,13 @@ local global = {}
 		Cig5 = "Could really go for one now... Wish I had a lighter."
 		Cig6 = "Don't plan on starting, even at a time like this."
 		NOWORK = "DUDE ### THIS #### DOESN'T EVEN WORK"
-		420jmessage = "MAN DATS SUM GOOD ### ####"
-		420death = "Subject D-9341 found in a comatose state in [DATA REDACTED]. The subject was holding what appears to be a cigarette while smiling widely. "
-		420death2 = "Chemical analysis of the cigarette has been inconclusive, although it seems to contain a high concentration of an unidentified chemical "
-		420death3 = "whose molecular structure is remarkably similar to that of tetrahydrocannabinol."
-		420deathmsg = "UH WHERE... WHAT WAS I DOING AGAIN... MAN I NEED TO TAKE A NAP..."
-		714remove = "You removed the ring."
-		714add = "You put on the ring."
+		scp420jmessage = "MAN DATS SUM GOOD ### ####"
+		scp420death = "Subject D-9341 found in a comatose state in [DATA REDACTED]. The subject was holding what appears to be a cigarette while smiling widely. "
+		scp420death2 = "Chemical analysis of the cigarette has been inconclusive, although it seems to contain a high concentration of an unidentified chemical "
+		scp420death3 = "whose molecular structure is remarkably similar to that of tetrahydrocannabinol."
+		scp420deathmsg = "UH WHERE... WHAT WAS I DOING AGAIN... MAN I NEED TO TAKE A NAP..."
+		scp714remove = "You removed the ring."
+		scp714add = "You put on the ring."
 		HazmatRemove = "You removed the hazmat suit."
 		HazmatAdd = "You put on the hazmat suit."
 		vestRemove = "You removed the vest."
@@ -95,21 +91,21 @@ local global = {}
 		Nost1 = "Huh? This guy looks just like me!"
 		Nost2 = "Isn't this the key to that old shack? The one where I... No, it can't be."
 		Nost3 = "Why does this seem so familiar?"
-		427close = "You closed the locket."
-		427open = "You opened the locket."
+		scp427close = "You closed the locket."
+		scp427open = "You opened the locket."
 		pilluse = "You swallowed the pill."
-		427trans1 = "You feel refreshed and energetic."
-		427trans2 = "You feel gentle muscle spasms all over your body."
-		427trans3 = "Your muscles are swelling. You feel more powerful than ever."
-		427trans4 = "You can't feel your legs. But you don't need legs anymore."
-		427death = "Requesting support from MTF Nu-7. We need more firepower to take this thing down."
-		008phase1 = "You feel kinda feverish."
-		008phase2 = "You feel nauseated."
-		008phase3 = "The nausea's getting worse."
-		008phase4 = "You feel really faint."
-		008death1 = "Subject D-9341 found ingesting Dr. [REDACTED] at Sector [REDACTED]. Subject was immediately terminated by Nine-Tailed Fox and sent for autopsy. "
-		008death2 = "SCP-008 infection was confirmed, after which the body was incinerated."
-		1499death = "The whereabouts of SCP-1499 are still unknown, but a recon team has been dispatched to investigate reports of a violent attack to a church in the Russian town of [REDACTED]."
+		scp427trans1 = "You feel refreshed and energetic."
+		scp427trans2 = "You feel gentle muscle spasms all over your body."
+		scp427trans3 = "Your muscles are swelling. You feel more powerful than ever."
+		scp427trans4 = "You can't feel your legs. But you don't need legs anymore."
+		scp427death = "Requesting support from MTF Nu-7. We need more firepower to take this thing down."
+		scp008phase1 = "You feel kinda feverish."
+		scp008phase2 = "You feel nauseated."
+		scp008phase3 = "The nausea's getting worse."
+		scp008phase4 = "You feel really faint."
+		scp008death1 = "Subject D-9341 found ingesting Dr. [REDACTED] at Sector [REDACTED]. Subject was immediately terminated by Nine-Tailed Fox and sent for autopsy. "
+		scp008death2 = "SCP-008 infection was confirmed, after which the body was incinerated."
+		scp1499death = "The whereabouts of SCP-1499 are still unknown, but a recon team has been dispatched to investigate reports of a violent attack to a church in the Russian town of [REDACTED]."
 		gateA = "Subject D-9341 found wandering around Gate A"
 		gateA2 = ". Subject was immediately terminated by Nine-Tailed Fox and sent for autopsy. "
 		gateA3 = "SCP-008 infection was confirmed, after which the body was incinerated."
@@ -117,4 +113,27 @@ local global = {}
 		HazCant = "You can't use that item while wearing a hazmat suit."
 		GasCant = "You can't use that item while wearing a gas mask."
 		headCant = "You can't use that item while wearing headgear."
-return global
+		save1 = "Game progress saved."
+		saveCannot = "You cannot save in this location."
+		saveMoment = "You cannot save at this moment."
+		saveMomentLoad = "You cannot save at this moment. (game is loading)"
+		saveMonitor = "Saving is only permitted on clickable monitors scattered throughout the facility."
+		saveDisabled = "Quick saving is disabled."
+		saveTut = "Press PLACEHOLDER to save."
+		docTut = "Double click on the document to view it."
+		teardrop = "The eyedrops are causing your eyes to tear up."
+		menu1 = "DON'T BLINK"
+		menu2 = "Secure. Contain. Protect."
+		menu3 = "You want happy endings? #### ###."
+		menu4 = "Sometimes we would have had time to scream."
+		menu5 = "NIL"
+		menu6 = "NO"
+		menu7 = "black white black white black white gray"
+		menu8 = "Stone does not care."
+		menu9 = "9341"
+		menu10 = "It controls the doors"
+		menu11 = "e8m106]af173o+079m895w914"
+		menu12 = "It has taken over everything"
+		menu13 = "The spiral is growing"
+		menu14 = "Some kind of gestalt effect due to massive reality damage."
+return module
