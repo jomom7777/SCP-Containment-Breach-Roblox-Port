@@ -40,8 +40,8 @@ local module = {}
 		end
 
 -- GLOBAL
-
 		cbversion = "1.3.11"
+		portversion = "0.0.1"
 		keycardReq = "A keycard is required to operate this door."
 		KeycardNothing = "The keycard was inserted into the slot but nothing happened."
 		KeycardInsert = "The keycard was inserted into the slot."
@@ -136,4 +136,26 @@ local module = {}
 		menu12 = "It has taken over everything"
 		menu13 = "The spiral is growing"
 		menu14 = "Some kind of gestalt effect due to massive reality damage."
+		shot1 = "A bullet hit your left leg."
+		shot2 = "A bullet hit your right leg."
+		shot3 = "A bullet hit your left shoulder."
+		shot4 = "A bullet hit your right shoulder."
+		shotVest1 = "A bullet penetrated your vest, making you gasp."
+		shotVest2 = "A bullet hit your chest. The vest absorbed some of the damage."
+		shotVest3 = "A bullet hit your chest. The vest absorbed most of the damage."
+		shot5 = "A bullet struck your neck, making you gasp."
+		gateB = "CH-2 to control. Shot down a runaway Class D at Gate B."
+		gateA4 = "CH-2 to control. Shot down a runaway Class D at Gate A."
+		scp035death = "One large and highly active tentacle-like appendage seems to have grown outside the dead body of a scientist within office area [REDACTED]. Its level of aggression is unlike anything we've seen before - it looks like it has beaten some unfortunate Class D to death at some point during the breach."
+		scp035death2 = "We will need more than the regular cleaning team to take care of this. Two large and highly active tentacle-like appendages seem to have formed inside the chamber. Their level of aggression is unlike anything we've seen before - it looks like they have beaten some unfortunate Class D to death at some point during the breach."
+		scp939death = "All four (4) escaped SCP-939 specimens have been captured and recontained successfully. Three (3) of them made quite a mess at Storage Area 6. A cleaning team has been dispatched."
+		scp966msg1 = "You feel something breathing right next to you."
+		scp966msg2 = "It feels like something's in this room with me."
+		scp966msg3 = "You feel like something is here with you, but you do not see anything."
+		scp966msg4 = "Is my mind playing tricks on me or is there someone else here?"
+		scp966msg5 = "You feel like something is following you."
+		scp966msg6 = "You can feel something near you, but you are unable to see it. Perhaps its time is now."
+		scp966msg7 = "You feel exhausted."
+		scp966msg8 = "Could really go for a nap now.."
+		scp966msg9 = "If I wasn't in this situation I would take a nap somewhere."
 return module
