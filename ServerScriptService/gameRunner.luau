@@ -6,6 +6,70 @@ local ServerStorage = game.ServerStorage
 
 -- READY UP
 
+local function Initload() -- used when joining
+		-- menu
+		-- okay so here it would create the UI itself in serverstorage then move it to playerUI still disabled
+		menu.Parent = playerGui
+		
+		-- seed selection
+		if math.random() < 1 / 15 then
+				local autoseed = math.random(1, 13)
+				if autoseed == 1 then
+						local aseed = Instance.new("BindableEvent")
+						aseed.Name = "NIL"
+						aseed.Parent = ServerScriptService.seed
+				elseif autoseed == 2 then
+						local aseed = Instance.new("BindableEvent")
+						aseed.Name = "NO"
+						aseed.Parent = ServerScriptService.seed
+				elseif autoseed == 3 then
+						local aseed = Instance.new("BindableEvent")
+						aseed.Name = "d9341"
+						aseed.Parent = ServerScriptService.seed
+				elseif autoseed == 4 then
+						local aseed = Instance.new("BindableEvent")
+						aseed.Name = "5CP_I73"
+						aseed.Parent = ServerScriptService.seed
+				elseif autoseed == 5 then
+						local aseed = Instance.new("BindableEvent")
+						aseed.Name = "DONTBLINK"
+						aseed.Parent = ServerScriptService.seed
+				elseif autoseed == 6 then
+						local aseed = Instance.new("BindableEvent")
+						aseed.Name = "CRUNCH"
+						aseed.Parent = ServerScriptService.seed
+				elseif autoseed == 7 then
+						local aseed = Instance.new("BindableEvent")
+						aseed.Name = "die"
+						aseed.Parent = ServerScriptService.seed
+				elseif autoseed == 8 then
+						local aseed = Instance.new("BindableEvent")
+						aseed.Name = "HTAED"
+						aseed.Parent = ServerScriptService.seed
+				elseif autoseed == 9 then
+						local aseed = Instance.new("BindableEvent")
+						aseed.Name = "rustledjim"
+						aseed.Parent = ServerScriptService.seed
+				elseif autoseed == 10 then
+						local aseed = Instance.new("BindableEvent")
+						aseed.Name = "larry"
+						aseed.Parent = ServerScriptService.seed
+				elseif autoseed == 11 then
+						local aseed = Instance.new("BindableEvent")
+						aseed.Name = "JORGE"
+						aseed.Parent = ServerScriptService.seed
+				elseif autoseed == 12 then
+						local aseed = Instance.new("BindableEvent")
+						aseed.Name = "dirtymetal"
+						aseed.Parent = ServerScriptService.seed
+				elseif autoseed == 13 then
+						local aseed = Instance.new("BindableEvent")
+						aseed.Name = "whatpumpkin"
+						aseed.Parent = ServerScriptService.seed
+				end
+		end
+end
+
 local function Baseload() -- used when making a new save
 		-- SCP-173
 		local SCP173 = Instance.new("MeshPart")
