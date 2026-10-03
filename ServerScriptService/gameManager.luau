@@ -158,4 +158,13 @@ local module = {}
 		scp008death2 = "Subject D-9341. Cause of death: multiple lacerations and severe blunt force trauma caused by [DATA EXPUNGED], who was infected with SCP-008. Said subject was located by Nine-Tailed Fox and terminated."
 		ntfDeath1 = "Subject D-9341. Died of blood loss after being shot by Nine-Tailed Fox."
 		ntfDeath2 = "Subject D-9341. Terminated by Nine-Tailed Fox."
+		hazItems = "You cannot pick up any items while wearing a hazmat suit."
+		scp1123death = "Subject D-9341 was shot dead after attempting to attack a member of Nine-Tailed Fox. Surveillance tapes show that the subject had been wandering around the site approximately 9 minutes prior, shouting the phrase get rid of the four pests in chinese. SCP-1123 was found in [REDACTED] nearby, suggesting the subject had come into physical contact with it. How exactly SCP-1123 was removed from its containment chamber is still unknown."
+		killBatDeath = "Subject D-9341 found dead inside SCP-914's output booth next to what appears to be an ordinary nine-volt battery. The subject is covered in severe electrical burns, and assumed to be killed via an electrical shock caused by the battery. The battery has been stored for further study."
+		veryFineVest = "The vest is too heavy to pick up."
+		haz2 = "You are not able to wear two hazmat suits at the same time."
+		hazVest = "You are not able to wear a vest and a hazmat suit at the same time."
+		vest2 = "You are not able to wear two vests at the same time."
+		maxItems = "You cannot carry any more items."
+		hazDrop = "You cannot drop any items while wearing a hazmat suit."
 return module
