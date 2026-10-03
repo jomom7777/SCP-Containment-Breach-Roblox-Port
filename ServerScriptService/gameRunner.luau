@@ -3,6 +3,9 @@ local manager = require(game.ServerScriptService.gameManager)
 local options = require(game.ServerScriptService.options)
 local DataStoreService = game:GetService("DataStoreService")
 local ServerStorage = game.ServerStorage
+local ServerScriptService = game.ServerScriptService
+local playerGui = game.playerGui
+
 
 -- READY UP
 
@@ -11,7 +14,7 @@ local function Initload() -- used when joining
 		-- okay so here it would create the UI itself in serverstorage then move it to playerUI still disabled
 		menu.Parent = playerGui
 		
-		-- seed selection
+		-- seed selection. This is just a near 1:1 translation of menu.bb lines ~150-186
 		if math.random() < 1 / 15 then
 				local autoseed = math.random(1, 13)
 				if autoseed == 1 then
@@ -67,6 +70,15 @@ local function Initload() -- used when joining
 						aseed.Name = "whatpumpkin"
 						aseed.Parent = ServerScriptService.seed
 				end
+		else 
+				local genseed = ""
+				for i = 1, math.random(4, 8) do
+						local n = math.random(0, 35)
+						genseed ..= n < 10 and tostring(n) or string.char(87 + n)
+					end
+				local generseed = Instance.new("BindableEvent")
+				generseed.Name = genseed
+				generseed.Parent = ServerScriptService.seed
 		end
 end
 
@@ -107,10 +119,11 @@ local function Baseload() -- used when making a new save
 		print("loaded SCP-1499 mesh")
 
 		-- get seed
-		local seed = game.ServerScriptService.Seed:FindFirstChildWhichIsA("BindableEvent", true)
+		local seed = game.ServerScriptService.seed:FindFirstChildWhichIsA("BindableEvent", true)
 		if seed then
 				print(seed.Name) -- PLACEHOLDER
 		end
+end
 
 if options.options.showFPS == true then
 		game.ServerStorage:FindFirstChild("FPS").Enabled = true
@@ -136,4 +149,4 @@ end
 
 -- MISC
 
-print("SCP - Containment Breach Roblox Port v" .. manager.portversion .. ") 
+print("SCP - Containment Breach Roblox Port v" .. manager.portversion)
