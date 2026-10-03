@@ -11,11 +11,11 @@ SCP173.Parent = ServerStorage
 -- SCP-173 TEXTURE
 
 if date.month == 10 and date.day == 31 then
-		manager.scp173_enableTexture()
+		manager.scp173_textureEnable()
 end
 
 if not (date.month == 10 and date.day == 31) then
-		manager.scp173_disableTexture()
+		manager.scp173_textureDisable()
 end
 
 -- MISC
