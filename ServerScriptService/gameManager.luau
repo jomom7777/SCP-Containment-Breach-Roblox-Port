@@ -25,7 +25,7 @@ end
 
 -- GLOBAL
 module.cbversion = "1.3.11"
-module.portVersion = "0.0.1"
+module.portVersion = "0.0.2"
 module.keycardReq = "A keycard is required to operate this door."
 module.keycardNothing = "The keycard was inserted into the slot but nothing happened."
 module.keycardInsert = "The keycard was inserted into the slot."
