@@ -1,18 +1,13 @@
 -- running off hopes and dreams since October 1, 2026
 
-local SCP173 = game.Workspace:WaitForChild("SCP-173")
-local HalloweenTex = game.ServerStorage:WaitForChild("HalloweenTex")
-local NormalTex = game.ServerStorage:WaitForChild("NormalTex")
-local beethovenMusic = game.Workspace.scp066.music
-
 -- SCP-173
 
 local module = {}
 		function module.scp173.textureEnable()
 				print("loading SCP-173's halloween texture")
-				HalloweenTex.Parent = SCP173
+				game.ServerStorage:FindFirstChild("HalloweenTex").Parent = game.Workspace:FindFirstChild("SCP-173")
 				task.wait(0.1)
-				if HalloweenTex.Parent == SCP173 then
+				if game.Workspace:FindFirstChild("SCP-173").HalloweenTex.Parent == game.Workspace:FindFirstChild("SCP-173") then
 						print("loaded!")
 				else
 						print("failed...")
@@ -21,12 +16,12 @@ local module = {}
 
 		function module.scp173.textureDisable()
 				print("loading normal 173 texture")
-				if HalloweenTex.Parent == SCP173 then
-						HalloweenTex.Parent = game.ServerStorage
+				if game.Workspace:FindFirstChild("SCP-173").HalloweenTex.Parent == game.Workspace:FindFirstChild("SCP-173") then
+						game.Workspace:FindFirstChild("SCP-173").HalloweenTex.Parent = game.ServerStorage
 				end
-				NormalTex.Parent = SCP173
+				game.ServerStorage.HalloweenTex.Parent = game.Workspace:FindFirstChild("SCP-173")
 				task.wait(0.1)
-				if NormalTex.Parent == SCP173 then
+				if game.Workspace:FindFirstChild("SCP-173").NormalTex.Parent == game.Workspace:FindFirstChild("SCP-173") then
 						print("loaded!")
 				else
 						print("failed...")
@@ -36,7 +31,7 @@ local module = {}
 -- SCP-066
 
 		function module.scp066_beethoven()
-				beethovenMusic:Play()
+				game.Workspace:FindFirstChild("SCP-066").music:Play()
 		end
 
 -- GLOBAL
