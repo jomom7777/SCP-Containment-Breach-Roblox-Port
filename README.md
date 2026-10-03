@@ -9,7 +9,7 @@ Assets by various people involved in the original 2012-2018 SCP - Containment Br
 
 Code by me (jomom7777) licensed under GNU AGPLv3.0
 
-# CREDITS
+# CREDITS (original game)
 
 ## Programmers
 
@@ -21,7 +21,6 @@ Code by me (jomom7777) licensed under GNU AGPLv3.0
 		Ryan Stillings ("Risingstar64")
 		Sam Lynch ("InnocentSam")
 		Shaun Gaylard ("ENDSHN")
-		jomom7777 ("K2NETIC")
 		Mark Jarjour
 
 
