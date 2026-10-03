@@ -1,7 +1,20 @@
 local date = os.date("*t")
 local manager = require(game.ServerScriptService.gameManager)
+local options = require(game.ServerScriptService.options)
 
 -- READY UP
+
+if options.options.showFPS == true then
+		game.ServerStorage:FindFirstChild("FPS").Enabled = true
+else
+		game.ServerStorage:FindFirstChild("FPS").Enabled = false
+end
+
+if options.options.showHUD == true then
+		game.ServerStorage:FindFirstChild("HUD").Enabled = true
+else
+		game.ServerStorage:FindFirstChild("HUD").Enabled = false
+end
 
 local SCP173 = instance.new("MeshPart")
 SCP173.Name = "SCP-173"
