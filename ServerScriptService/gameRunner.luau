@@ -40,7 +40,7 @@ local function Baseload() -- used when making a new save
 		SCP1499.Name = "SCP-1499"
 		SCP1499.MeshId = "0"
 		SCP1499.Parent = ServerStorage
-		print(loaded SCP-1499 mesh")
+		print("loaded SCP-1499 mesh")
 
 		-- get seed
 		local seed = game.ServerScriptService.Seed:FindFirstChildWhichIsA("BindableEvent", true)
