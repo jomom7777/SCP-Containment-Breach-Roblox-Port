@@ -13,7 +13,7 @@ function module.scp173_texture()
 		normalTex.Transparency = 1
 	elseif not (date.month == 10 and date.day == 31) then
 		normalTex.Transparency = 0
-		halloTex.Transparency = 0
+		halloTex.Transparency = 1
 	end
 end
 
