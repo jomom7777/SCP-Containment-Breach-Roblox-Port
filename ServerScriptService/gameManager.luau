@@ -226,6 +226,37 @@ local ms = {"January", "February", "March", "April", "May", "June", "July", "Aug
 local mw = ms[m]
 module.scp990msg12 = string.format("it will happen on %d %s %d.", d, mw, y)
 
+-- music
+
+local ss = game.SoundService
+local ms = ss.music
+module.music0 = ss.music.TheDread
+module.music1 = ms.HeavyContainment
+module.music2 = ms.EntranceZone
+module.music3 = ms.PD
+module.music4 = ms.s079
+module.music5 = ms.GateB1
+module.music6 = ms.GateB2
+module.music7 = ms.Room3Storage
+module.music8 = ms.Room049
+module.music9 = ms.s8601
+module.music10 = ms.s106
+module.music11 = ms.Menu
+module.music12 = ms.s8601Cancer
+module.music13 = ms.Intro
+module.music14 = ms.s178 -- SCP-178 isnt ingame anymore but still included so the numbers line up.
+module.music15 = ms.PDTrench
+module.music16 = ms.s205
+module.music17 = ms.GateA
+module.music18 = ms.s1499
+module.music19 = ms.s1499Danger
+module.music20 = ms.s049Chase
+module.music21 = ms.MenuBreath -- half of this music is left blank due to copyright from CMX's song being included. This applies to other tracks with copyrighted music, and SFX with the same
+module.music22 = ms.s914
+module.music23 = ms.Ending
+module.music24 = ms.Credits
+module.music25 = ms.SaveMeFrom
+
 return module
 -- someone stop this criminal
 -- this is not forgiveable
