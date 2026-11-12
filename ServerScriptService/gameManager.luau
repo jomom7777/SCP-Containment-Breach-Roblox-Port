@@ -20,7 +20,7 @@ end
 -- SCP-066
 
 function module.scp066_beethoven()
-	game.Workspace:FindFirstChild("SCP-066").music:Play()
+	game.Workspace:FindFirstChild("SCP066").music:Play()
 end
 
 -- GLOBAL
@@ -244,6 +244,12 @@ local ms = {"January", "February", "March", "April", "May", "June", "July", "Aug
 local mw = ms[m]
 module.scp990msg12 = string.format("it will happen on %d %s %d.", d, mw, y)
 
+function module.codeGen()
+	local tunnelC = "5902"
+	local maynardC = tunnelC * 6667 % 10000
+	print("Maynard code is", maynardC)
+end
+
 -- music
 
 local ss = game.SoundService
@@ -255,7 +261,7 @@ module.music3 = ms.PD
 module.music4 = ms.s079
 module.music5 = ms.GateB1
 module.music6 = ms.GateB2
-module.music7 = ms.Room3Storage
+module.music7 = ms.Room3Storage -- 939
 module.music8 = ms.Room049
 module.music9 = ms.s8601
 module.music10 = ms.s106
@@ -276,5 +282,6 @@ module.music24 = ms.Credits
 module.music25 = ms.SaveMeFrom
 
 return module
+
 -- someone stop this criminal
 -- this is not forgiveable
