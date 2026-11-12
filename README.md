@@ -1,7 +1,8 @@
 # SCP - Containment Breach Roblox Port
 
-CC-BY-SA 3.0
-Creative Commons Attribution Sharealike 3.0 License Unported
+CC-BY-SA 4.0
+Creative Commons Attribution ShareAlike 4.0 International License
+Derivative of CC-BY-SA 3.0 Unported work
 
 Attribute this repository as "SCP - Containment Breach Roblox Port" by jomom7777 (K2NETIC)
 
@@ -9,212 +10,49 @@ Assets by various people involved in the original 2012-2018 SCP - Containment Br
 
 Code by me (jomom7777) licensed under GNU AGPLv3.0
 
-# CREDITS (original game)
+# CREDITS
 
-## Programmers
+## Original
 
-		Joonas Rikkonen ("Regalis")
-		CommanderMark
-		Jesse Ludtke ("MonocleBios")
-		Juan Pablo Arce ("Juanjpro")
-		Luggs123
-		Ryan Stillings ("Risingstar64")
-		Sam Lynch ("InnocentSam")
-		Shaun Gaylard ("ENDSHN")
-		Mark Jarjour
+**Undertow Games, Third Subdivision Studios, and others** - Original Game
 
+## Port
 
-## 3D Modellers
+**jomom7777/K2NETIC** - Main Developer
+**hlpdev/Hunter** - Contributions
 
-		Joonas Rikkonen ("Regalis")
-		Apocryphos
-		Atomicsneak
-		Brandon Smith
-		EternalError
-		GamerEntitlement
-		Hakkla
-		Ivan Mikhailov ("Redbull.Ivan")
-		James Bear ("Moonsaber")
-		Kenneth Crooker
-		Lionel Ruskin ("Cridone")
-		Micro
-		Night
-		Prosth
-		TheKMan
-		Reilly Grindle ("Mirocaine")
-		SaitoFox
-		Sam Lynch ("InnocentSam")
-		Shaun Gaylard ("ENDSHN")
-		Tom Malinowski
-		Vladislav Borisevich ("Vane Brain")
-		Brandon Smith
+## Wikidot
 
+"SCP-008" by Unknown Author, from the SCP Wiki. Source: https://scpwiki.com/scp-008. Licensed under CC BY-SA.
+"SCP-012" by ITIFAMCO, from the SCP Wiki. Source: https://scpwiki.com/scp-012. Licensed under CC BY-SA.
+"SCP-035" by Kain Pathos Crow, from the SCP Wiki. Source: https://scpwiki.com/scp-035. Licensed under CC BY-SA.
+"SCP-049" by Gabriel Jade, rewritten by djkaktus & Gabriel Jade, from the SCP Wiki. Source: https://scpwiki.com/scp-049. Licensed under CC BY-SA.
+"SCP-066" by Unknown Author, rewritten by Akumeoy, from the SCP Wiki. Source: https://scpwiki.com/scp-066. Licensed under CC BY-SA.
+"SCP-079" by Unknown author, from the SCP Wiki. Source: https://scpwiki.com/scp-079. Licensed under CC BY-SA.
+"SCP-096" by Dr Dan, from the SCP Wiki. Source: https://scpwiki.com/scp-096. Licensed under CC BY-SA.
+"SCP-106" by Dr Gears, from the SCP Wiki. Source: https://scpwiki.com/scp-106. Licensed under CC BY-SA.
+"SCP-148" by Lt Masipag, rewritten by Akumeoy, from the SCP Wiki. Source: https://scpwiki.com/scp-148. Licensed under CC BY-SA.
+"SCP-173" by Moto42, from the SCP Wiki. Source: https://scpwiki.com/scp-173. Licensed under CC BY-SA.
+"SCP-205" by Sorts, from the SCP Wiki. Source: https://scpwiki.com/scp-205. Licensed under CC BY-SA.
+"SCP-294" by Arcibi, from the SCP Wiki. Source: https://scpwiki.com/scp-294. Licensed under CC BY-SA.
+"SCP-372" by Sylocat, from the SCP Wiki. Source: https://scpwiki.com/scp-372. Licensed under CC BY-SA.
+"SCP-420-J" by Quikngruvn, from the SCP Wiki. Source: https://scpwiki.com/scp-420-j. Licensed under CC BY-SA.
+"SCP-427" by Dr Ouros, from the SCP Wiki. Source: https://scpwiki.com/scp-427. Licensed under CC BY-SA.
+"SCP-500" by snorlison, from the SCP Wiki. Source: https://scpwiki.com/scp-500. Licensed under CC BY-SA.
+"SCP-513" by beefwit, from the SCP Wiki. Source: https://scpwiki.com/scp-513. Licensed under CC BY-SA.
+"SCP-682" by Dr Gears and Epic Phail Spy, from the SCP Wiki. Source: https://scpwiki.com/scp-682. Licensed under CC BY-SA.
+"SCP-714" by Arcalane, from the SCP Wiki. Source: https://scpwiki.com/scp-714. Licensed under CC BY-SA.
+"SCP-789-J" by Salman Corbette, from the SCP Wiki. Source: https://scpwiki.com/scp-789-j. Licensed under CC BY-SA.
+"SCP-860" by Author Unverified, from the SCP Wiki. Source: https://scp-wiki.wikidot.com/scp-860. Licensed under CC-BY-SA
+"SCP-895" by Aelanna, from the SCP Wiki. Source: https://scpwiki.com/scp-895. Licensed under CC BY-SA.
+"SCP-914" by Dr Gears, from the SCP Wiki. Source: https://scpwiki.com/scp-914. Licensed under CC BY-SA.
+"SCP-939" by Adam Smascher and EchoFourDelta, from the SCP Wiki. Source: https://scpwiki.com/scp-939. Licensed under CC BY-SA.
+"SCP-966" by Enma Ai, from the SCP Wiki. Source: https://scpwiki.com/scp-966. Licensed under CC BY-SA.
+"SCP-970" by Freudian, from the SCP Wiki. Source: https://scpwiki.com/scp-970. Licensed under CC BY-SA.
+"SCP-1025" by Lasergoose, from the SCP Wiki. Source: https://scpwiki.com/scp-1025. Licensed under CC BY-SA.
+"SCP-1048" by trennerdios, from the SCP Wiki. Source: https://scpwiki.com/scp-1048. Licensed under CC BY-SA.
+"SCP-1123" by sandrewswann, from the SCP Wiki. Source: https://scpwiki.com/scp-1123. Licensed under CC BY-SA.
+"SCP-1162" by Author Unverified, from the SCP Wiki. Source: https://web.archive.org/web/20210513041232/https://scp-wiki.wikidot.com/scp-1162. Licensed under CC-BY-SA.
+"SCP-1499" by Trasknari, from the SCP Wiki. Source: https://scpwiki.com/scp-1499. Licensed under CC BY-SA.
+"Log of Anomalous Ducks" by floridapologia, from the SCP Wiki. Source: https://scpwiki.com/log-of-anomalous-ducks. Licensed under CC BY-SA.
 
-## Sound Effects and Music
-
-		Joonas Rikkonen ("Regalis")
-		Caleb Yu ("Omniary")
-		Class401
-		FireFox
-		gmodfan11
-		Kevin MacLeod
-		phlip45
-		revo794
-		Shaun Gaylard ("ENDSHN")
-		Slagar
-		Tim Morrison
-		Vladislav Borisevich ("Vane Brain")
-		Walach
-		Turtle Sandwich/Catnipbuddy
-
-
-## Voice Actors
-
-		Aaron Mckee ("TheVolgun")
-		Brendan Sussman ("DukeLovesYou")
-		CDWinters
-		Graham Ruruku ("Stealthy Zoroark")
-		Hunter
-		ItsDuke
-		Joshofsouls
-		Moonstiee
-		SolidBaker
-		Tallfellow
-		Undead003
-
-
-## Graphics and Sprites
-
-		Joonas Rikkonen ("Regalis")
-		Anon4743
-		Balzac
-		Brokami
-		Caleb Yu ("Omniary")
-		KyoteeWilliams
-		Orgil Pount ("Destructoid")
-		Pavel Lvovich Gorfunkel ("-Mark-")
-		Shadowscale48
-		Shaun Gaylard ("ENDSHN")
-		Vladislav Borisevich ("Vane Brain")
-		Aldred28
-		Irontaco
-		Munted
-
-
-## Writers
-
-		Joonas Rikkonen ("Regalis")
-		Caleb Yu ("Omniary")
-		Dr. Gears
-		Irontaco
-		Steelpoint
-		Vladislav Borisevich ("Vane Brain")
-
-
-## Testers
-
-		Christian Rieß
-		Emil215p
-		Flipsy
-		Inclination
-		LordDeathv11
-		Onemario1234
-		RadReed
-		TheHappyJammer
-		Zadrakos
-
-
-## Others
-
-		Agent G
-		Gage Allen ("Lotims")
-		Haversine
-		Max Taylor
-		Meow :3
-		Nikita Sidorov ("Jabka")
-		Turtle Sandwich/Catnipbuddy
-		Salvage
-		Bob
-		James Bear
-		/v/ and everyone in the SCP-CB forum
-
-
-## The game is based on the works of the SCP Foundation community.
-
-
-		The SCP-CB logo and SCP logo are based on the logo created by "far2"
-
-		SCP-008 is based on "SCP-008 - Zombie Plague" by "Lee Byron"
-
-		SCP-012 is based on "SCP-012 - A Bad Composition", author unknown
-
-		SCP-035 is based on "SCP-035 - Possessive Mask", by "Kain Pathos Crow"
-
-		SCP-049 is based on "SCP-049 - Plague Doctor", by "Gabriel Jade"
-
-		SCP-066 is based on "SCP-066 - Eric's Toy", by "Scantron"
-
-		SCP-079 is based on "SCP-079 - Old AI", author unknown
-
-		SCP-096 is based on "SCP-096 - The 'Shy Guy'" by "Dr Dan"
-
-		SCP-106 is based on "SCP-106 - The Old Man" by "Dr Gears"
-
-		SCP-148 is based on "SCP-148 - The "Telekill" Alloy", by "Lt Masipag"
-
-		SCP-173 is based on "SCP-173 - The Sculpture", by "Moto42"
-
-		SCP-205 is based on "SCP-205 - Shadow Lamps", by "Sorts"
-
-		SCP-294 is based on "SCP-294 - The Coffee Machine", by "far2"
-
-		SCP-372 is based on "SCP-372 - Peripheral Jumper" by "Sylocat"
-
-		SCP-420-J is based on "SCP-420-J - The Best ____ in the World" by "Quikngruvn"
-
-		SCP-427 is based on "SCP-427 - Lovecraftian Locket" by "Dr Ouros"
-
-		SCP-500 is based on "SCP-500 - Panacea" by "far2"
-
-		SCP-513-1 is based on "SCP-513 - A Cowbell" by "beefwit"
-
-		SCP-714 is based on "SCP-714 - The Jaded Ring" by "Arcalane"
-
-		SCP-682 is based on "SCP-682 - Hard-to-Destroy Reptile" by "Dr. Gears"
-
-		SCP-789-J is based on "SCP-789-J - the butt ghost!!" by "Salman Corbette"
-
-		SCP-860 is based on "SCP-860 - Blue Key" by "Enma Ai"
-
-		SCP-895 is based on "SCP-895 - Camera Disruption" by "Aelanna"
-
-		SCP-914 is based on "SCP-914 - The Clockworks" by "Dr. Gears"
-
-		SCP-939 is based on "SCP-939 - With Many Voices" by "Adam Smascher"
-
-		SCP-966 is based on "SCP-966 - Sleep Killer" by "Enma Ai"
-
-		SCP-970 is based on "SCP-970 - The Recursive Room" by "Freudian"	
-
-		SCP-1025 is based on "SCP-1025 - Encyclopedia of Diseases" by "Lasergoose"
-
-		SCP-1048 is based on "SCP-1048 - Builder Bear" by "Researcher Dios"
-
-		SCP-1123 is based on "SCP-1123 - Atrocity Skull" by "sandrewswann"
-
-		SCP-1162 is based on "SCP-1162 - A Hole in the Wall" by "Dedaluminus"
-
-		SCP-1499 is based on "SCP-1499 - The Gas Mask" by "Trasknari"
-
-		The Anomalous Ducks are based on "Log of Anomalous Ducks" by "Skara Brae"
-
-	A big thank you to everyone who's supported the project during these years
-	- it would have	never gotten to where it is now without your help.
-	
-	SCP-CB has been a big collaborative effort with dozens (maybe even hundreds?)
-	of people creating material and giving ideas and feedback for the game, and
-	I'm sure I've forgotten to mention some of you here. If you've contributed
-	something to the game and would like your name to be added here, drop
-	me a message on the Undertow Games forum or contact@undertowgames.com!
-	
-	- Joonas Rikkonen ("Regalis")
