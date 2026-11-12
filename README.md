@@ -1,7 +1,9 @@
 # SCP - Containment Breach Roblox Port
 
 CC-BY-SA 4.0
+
 Creative Commons Attribution ShareAlike 4.0 International License
+
 Derivative of CC-BY-SA 3.0 Unported work
 
 Attribute this repository as "SCP - Containment Breach Roblox Port" by jomom7777 (K2NETIC)
@@ -19,6 +21,7 @@ Code by me (jomom7777) licensed under GNU AGPLv3.0
 ## Port
 
 **jomom7777/K2NETIC** - Main Developer
+
 **hlpdev/Hunter** - Contributions
 
 ## Wikidot
