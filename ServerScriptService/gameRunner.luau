@@ -6,6 +6,7 @@ local ServerStorage = game.ServerStorage
 local ServerScriptService = game.ServerScriptService
 local playerGui = game.StarterGui
 local Menu = game.ServerStorage.Menu
+local plyr = game:GetService("Players")
 
 
 -- READY UP
@@ -127,3 +128,4 @@ print(manager.scp990msg12)
 
 Initload()
 Baseload()
+manager.codeGen()
