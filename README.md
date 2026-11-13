@@ -1,10 +1,10 @@
 # SCP - Containment Breach Roblox Port
 
-CC-BY-SA 4.0
+CC-BY-SA 3.0
 
 Creative Commons Attribution ShareAlike 4.0 International License
 
-Derivative of CC-BY-SA 3.0 Unported work
+Derivative of CC-BY-SA 3.0 Unported work - https://scpcbgame.com
 
 Attribute this repository as "SCP - Containment Breach Roblox Port" by jomom7777 (K2NETIC)
 
