@@ -328,15 +328,15 @@ local ss = game.SoundService
 local ms = ss.music
 
 -- Zones
-module.music0 = ms.TheDread - Light Containment Zone
-module.music1 = ms.HeavyContainment - Heavy Containment Zone
-module.music2 = ms.EntranceZone - Entrance Zone
+module.music0 = ms.TheDread -- Light Containment Zone
+module.music1 = ms.HeavyContainment -- Heavy Containment Zone
+module.music2 = ms.EntranceZone -- Entrance Zone
 
 -- Misc
 module.music3 = ms.PD -- Pocket Dimension
 module.music15 = ms.PDTrench
-module.music11 = ms.Menu - Main Menu
-module.music13 = ms.Intro - Intro Sequence
+module.music11 = ms.Menu -- Main Menu
+module.music13 = ms.Intro -- Intro Sequence
 module.music23 = ms.Ending
 module.music24 = ms.Credits
 module.music21 = ms.MenuBreath -- half of this music is left blank due to copyright from CMX's song being included. This applies to other tracks with copyrighted music, and SFX with the same
