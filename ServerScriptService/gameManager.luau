@@ -27,7 +27,7 @@ end
 
 -- Meta/Out of Game
 module.cbversion = "1.3.11"
-module.portVersion = "0.0.2"
+module.portVersion = "0.0.3"
 module.stopHiding = "STOP HIDING"
 module.menu1 = "DON'T BLINK"
 module.menu2 = "Secure. Contain. Protect."
