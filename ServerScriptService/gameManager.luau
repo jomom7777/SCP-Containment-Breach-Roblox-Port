@@ -358,9 +358,6 @@ module.music20 = ms.s049Chase
 module.music22 = ms.s914
 module.music25 = ms.SaveMeFrom
 
--- Cut Content
--- module.music14 = ms.s178 -- SCP-178 isnt ingame anymore but still included so the numbers line up.
-
 return module
 
 -- someone stop this criminal
