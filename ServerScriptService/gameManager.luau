@@ -55,7 +55,6 @@ module.clearance2 = "A keycard with security clearance 2 or higher is required t
 module.clearance3 = "A keycard with security clearance 3 or higher is required to operate this door."
 module.clearance4 = "A keycard with security clearance 4 or higher is required to operate this door."
 module.clearance5 = "A keycard with security clearance 5 or higher is required to operate this door."
-module.clearance6 = "A keycard with security clearance Omni or higher is required to operate this door." -- this isnt even used ingame but if you wanna mod it in, go ahead!
 module.scannerSuc = [[You place the palm of the hand onto the scanner. The scanner reads: "DNA verified. Access Granted"]]
 module.scanner9341 = "You placed your palm onto the scanner. The scanner reads: DNA does not match known sample. Access denied."
 module.doorNothing = "You pushed the button but nothing happened."
@@ -360,7 +359,7 @@ module.music22 = ms.s914
 module.music25 = ms.SaveMeFrom
 
 -- Cut Content
-module.music14 = ms.s178 -- SCP-178 isnt ingame anymore but still included so the numbers line up.
+-- module.music14 = ms.s178 -- SCP-178 isnt ingame anymore but still included so the numbers line up.
 
 return module
 
