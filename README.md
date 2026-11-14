@@ -34,13 +34,19 @@ Code by me (jomom7777) licensed under GNU AGPLv3.0
 
 **"SCP-049"** by Gabriel Jade, rewritten by djkaktus & Gabriel Jade, from the SCP Wiki. Source: https://scpwiki.com/scp-049. Licensed under CC BY-SA.
 
+**"SCP-055"** by qntm and CptBellman, from the SCP Wiki. Source: https://scpwiki.com/scp-055. Licensed under CC BY-SA.
+
 **"SCP-066"** by Unknown Author, rewritten by Akumeoy, from the SCP Wiki. Source: https://scpwiki.com/scp-066. Licensed under CC BY-SA.
 
 **"SCP-079"** by Unknown author, from the SCP Wiki. Source: https://scpwiki.com/scp-079. Licensed under CC BY-SA.
 
+**"SCP-093"** by Unknown author, rewritten by NekoChris, from the SCP Wiki. Source: https://scpwiki.com/scp-093. Licensed under CC BY-SA.
+
 **"SCP-096"** by Dr Dan, from the SCP Wiki. Source: https://scpwiki.com/scp-096. Licensed under CC BY-SA.
 
 **"SCP-106"** by Dr Gears, from the SCP Wiki. Source: https://scpwiki.com/scp-106. Licensed under CC BY-SA.
+
+**"SCP-132-ARC"** by Unknown Author, from the SCP Wiki. Source: https://scpwiki.com/scp-132-arc. Licensed under CC BY-SA.
 
 **"SCP-148"** by Lt Masipag, rewritten by Akumeoy, from the SCP Wiki. Source: https://scpwiki.com/scp-148. Licensed under CC BY-SA.
 
@@ -54,6 +60,8 @@ Code by me (jomom7777) licensed under GNU AGPLv3.0
 
 **"SCP-420-J"** by Quikngruvn, from the SCP Wiki. Source: https://scpwiki.com/scp-420-j. Licensed under CC BY-SA.
 
+**"SCP-423"** by DrEverettMann, from the SCP Wiki. Source: https://scpwiki.com/scp-423. Licensed under CC BY-SA.
+
 **"SCP-427"** by Dr Ouros, from the SCP Wiki. Source: https://scpwiki.com/scp-427. Licensed under CC BY-SA.
 
 **"SCP-500"** by snorlison, from the SCP Wiki. Source: https://scpwiki.com/scp-500. Licensed under CC BY-SA.
@@ -66,6 +74,8 @@ Code by me (jomom7777) licensed under GNU AGPLv3.0
 
 **"SCP-789-J"** by Salman Corbette, from the SCP Wiki. Source: https://scpwiki.com/scp-789-j. Licensed under CC BY-SA.
 
+**"SCP-847"** by Author Unverified, from the SCP Wiki. Source: https://scp-wiki.wikidot.com/scp-847. Licensed under CC-BY-SA
+
 **"SCP-860"** by Author Unverified, from the SCP Wiki. Source: https://scp-wiki.wikidot.com/scp-860. Licensed under CC-BY-SA
 
 **"SCP-895"** by Aelanna, from the SCP Wiki. Source: https://scpwiki.com/scp-895. Licensed under CC BY-SA.
@@ -77,6 +87,8 @@ Code by me (jomom7777) licensed under GNU AGPLv3.0
 **"SCP-966"** by Enma Ai, from the SCP Wiki. Source: https://scpwiki.com/scp-966. Licensed under CC BY-SA.
 
 **"SCP-970"** by Freudian, from the SCP Wiki. Source: https://scpwiki.com/scp-970. Licensed under CC BY-SA.
+
+**"SCP-990"** by Dave Rapp, from the SCP Wiki. Source: https://scpwiki.com/scp-990. Licensed under CC BY-SA.
 
 **"SCP-1025"** by Lasergoose, from the SCP Wiki. Source: https://scpwiki.com/scp-1025. Licensed under CC BY-SA.
 
