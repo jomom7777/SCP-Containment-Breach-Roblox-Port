@@ -2,7 +2,7 @@
 
 CC-BY-SA 3.0
 
-Creative Commons Attribution ShareAlike 4.0 International License
+Creative Commons Attribution ShareAlike 3.0 International License
 
 Derivative of CC-BY-SA 3.0 Unported work - https://scpcbgame.com
 
@@ -17,6 +17,7 @@ Code by me (jomom7777) licensed under GNU AGPLv3.0
 ## Original
 
 **Undertow Games, Third Subdivision Studios, and others** - Original Game
+View credits.luau for more info.
 
 ## Port
 
